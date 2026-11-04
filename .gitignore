@@ -2,6 +2,8 @@
 */
 !tech/
 !tools/
+!tools/**/
+__pycache__/
 # stray file from a mistyped command
 --help
 .DS_Store
