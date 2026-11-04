@@ -7,7 +7,8 @@
     "what": "Two pieces in front of the cited-answers system from the Module 3 project.",
     "hours": "16",
     "status": "built",
-    "tech": "55 files"
+    "tech": "55 files",
+    "url": "https://github.com/plainround-projects/ai-gateway-and-eval-gate"
   },
   {
     "track": "ai",
@@ -17,7 +18,8 @@
     "what": "A self-correcting writer for support replies.",
     "hours": "10",
     "status": "built",
-    "tech": "43 files"
+    "tech": "43 files",
+    "url": "https://github.com/plainround-projects/ai-reflect-and-regrade"
   },
   {
     "track": "ai",
@@ -27,7 +29,8 @@
     "what": "A small open-weight model, adapted with LoRA, that rewrites a support agent's rough notes into Plainround's handoff format: fixed sections in a fixed order, dat",
     "hours": "14",
     "status": "built",
-    "tech": "50 files"
+    "tech": "50 files",
+    "url": "https://github.com/plainround-projects/ai-lora-beats-its-prompt"
   },
   {
     "track": "ai",
@@ -37,7 +40,8 @@
     "what": "A small open-weight model served on one accelerator (or a laptop for a very small model) behind an OpenAI-compatible endpoint, at two quantization levels.",
     "hours": "10",
     "status": "built",
-    "tech": "48 files"
+    "tech": "48 files",
+    "url": "https://github.com/plainround-projects/ai-serve-and-load-test"
   },
   {
     "track": "ai",
@@ -47,7 +51,8 @@
     "what": "A router that sits in front of three models of rising price and skill.",
     "hours": "10",
     "status": "built",
-    "tech": "43 files"
+    "tech": "43 files",
+    "url": "https://github.com/plainround-projects/ai-cost-aware-router"
   },
   {
     "track": "ai",
@@ -57,7 +62,8 @@
     "what": "A guard layer around the track's sample support assistant, the one that answers order and policy questions for a small online shop through a read-only `find_ord",
     "hours": "12",
     "status": "built",
-    "tech": "43 files"
+    "tech": "43 files",
+    "url": "https://github.com/plainround-projects/ai-guardrails-and-red-team"
   },
   {
     "track": "ai",
@@ -67,7 +73,8 @@
     "what": "A pipeline for the shop's one-page return request form: order number, customer email, return date, item lines with quantity and amount, a total, a reason code f",
     "hours": "12",
     "status": "built",
-    "tech": "29 files"
+    "tech": "29 files",
+    "url": "https://github.com/plainround-projects/ai-document-extraction-review-queue"
   },
   {
     "track": "ai",
@@ -77,7 +84,8 @@
     "what": "The shop's support agent with three tools: `find_order` (read), `search_help` (read, returns help-center pages) and `request_refund` (write).",
     "hours": "14",
     "status": "built",
-    "tech": "34 files"
+    "tech": "34 files",
+    "url": "https://github.com/plainround-projects/ai-support-agent-no-refund"
   },
   {
     "track": "ai",
@@ -87,7 +95,8 @@
     "what": "A small pipeline that reads 1,000 sample traces from the support assistant and writes eval set v1: `cases.jsonl`, `labels.jsonl`, a datasheet that says what the",
     "hours": "10",
     "status": "built",
-    "tech": "26 files"
+    "tech": "26 files",
+    "url": "https://github.com/plainround-projects/ai-traces-to-trusted-eval-set"
   },
   {
     "track": "ai",
@@ -97,7 +106,8 @@
     "what": "The support assistant as a streaming endpoint (server-sent events) with a small page.",
     "hours": "14",
     "status": "built",
-    "tech": "38 files"
+    "tech": "38 files",
+    "url": "https://github.com/plainround-projects/ai-streaming-assistant-latency-budget"
   },
   {
     "track": "ai",
@@ -107,7 +117,8 @@
     "what": "The support-email extractor from the Module 2 project (an email in; a typed ticket with intent, order number, sentiment and requested action out) as a small HTT",
     "hours": "10",
     "status": "built",
-    "tech": "36 files"
+    "tech": "36 files",
+    "url": "https://github.com/plainround-projects/ai-ship-an-ai-service"
   },
   {
     "track": "ai",
@@ -117,7 +128,8 @@
     "what": "A worker for the support inbox.",
     "hours": "10",
     "status": "built",
-    "tech": "36 files"
+    "tech": "36 files",
+    "url": "https://github.com/plainround-projects/ai-event-driven-ai-worker"
   },
   {
     "track": "ai",
@@ -127,7 +139,8 @@
     "what": "A migration of the Module 13 service (the email extractor run as a service) from its pinned model to a candidate: a newer version of the same model or a differe",
     "hours": "10",
     "status": "built",
-    "tech": "48 files"
+    "tech": "48 files",
+    "url": "https://github.com/plainround-projects/ai-model-migration-drill"
   },
   {
     "track": "ai",
@@ -137,7 +150,8 @@
     "what": "A small command-line tool, `meter`, that reads a file of prompts, estimates the tokens and cost of each one before calling, calls the model at three decoding se",
     "hours": "6",
     "status": "built",
-    "tech": "43 files"
+    "tech": "43 files",
+    "url": "https://github.com/plainround-projects/ai-token-and-cost-meter"
   },
   {
     "track": "ai",
@@ -147,7 +161,8 @@
     "what": "An extractor that reads a support email and returns a record your code can trust: the order id (or none), a category, whether a refund is asked for, the amount ",
     "hours": "8",
     "status": "built",
-    "tech": "44 files"
+    "tech": "44 files",
+    "url": "https://github.com/plainround-projects/ai-structured-extraction"
   },
   {
     "track": "ai",
@@ -157,7 +172,8 @@
     "what": "A question-answering service over a help center.",
     "hours": "12",
     "status": "built",
-    "tech": "53 files"
+    "tech": "53 files",
+    "url": "https://github.com/plainround-projects/ai-cited-answers"
   },
   {
     "track": "ai",
@@ -167,7 +183,8 @@
     "what": "A scheduling assistant that books, moves and cancels meetings on a sample calendar service.",
     "hours": "14",
     "status": "built",
-    "tech": "53 files"
+    "tech": "53 files",
+    "url": "https://github.com/plainround-projects/ai-scheduling-agent"
   },
   {
     "track": "ai",
@@ -177,7 +194,8 @@
     "what": "An orchestrator that sits between a model and a dozen tools.",
     "hours": "14",
     "status": "built",
-    "tech": "55 files"
+    "tech": "55 files",
+    "url": "https://github.com/plainround-projects/ai-tool-orchestrator"
   },
   {
     "track": "architecture-leadership",
@@ -187,7 +205,8 @@
     "what": "A decision record and its communication for one genuine choice, drawn from your own work or a realistic scenario you set up: for example, whether to adopt a mes",
     "hours": "4",
     "status": "built",
-    "tech": "34 files"
+    "tech": "34 files",
+    "url": "https://github.com/plainround-projects/architecture-leadership-decision-record"
   },
   {
     "track": "architecture-leadership",
@@ -197,7 +216,8 @@
     "what": "A full design review of a system proposal: you write (or take) a realistic design document for a small system, run a review of it against quantified non-functio",
     "hours": "8",
     "status": "built",
-    "tech": "35 files"
+    "tech": "35 files",
+    "url": "https://github.com/plainround-projects/architecture-leadership-design-review"
   },
   {
     "track": "architecture-leadership",
@@ -207,7 +227,8 @@
     "what": "A migration plan and its governance for a realistic change: moving a monolith's one busy module to a service, replacing a datastore, or moving from one cloud to",
     "hours": "12",
     "status": "built",
-    "tech": "35 files"
+    "tech": "35 files",
+    "url": "https://github.com/plainround-projects/architecture-leadership-lead-a-migration"
   },
   {
     "track": "aws",
@@ -217,7 +238,8 @@
     "what": "A small static site (a few HTML pages and images of your own) stored in an S3 bucket that is never public, served to the world through CloudFront with origin ac",
     "hours": "5",
     "status": "built",
-    "tech": "30 files"
+    "tech": "30 files",
+    "url": "https://github.com/plainround-projects/aws-private-static-site"
   },
   {
     "track": "aws",
@@ -227,7 +249,8 @@
     "what": "A small web app on EC2 instances in private subnets of two Availability Zones, behind an Application Load Balancer in public subnets, reaching S3 through a gate",
     "hours": "10",
     "status": "built",
-    "tech": "35 files"
+    "tech": "35 files",
+    "url": "https://github.com/plainround-projects/aws-vpc-break-and-fix"
   },
   {
     "track": "aws",
@@ -237,7 +260,8 @@
     "what": "A small AWS organization of your own: a management account, a security account that receives logs, and a sandbox workload account, with people signing in throug",
     "hours": "12",
     "status": "built",
-    "tech": "30 files"
+    "tech": "30 files",
+    "url": "https://github.com/plainround-projects/aws-guardrails-drill"
   },
   {
     "track": "azure",
@@ -247,7 +271,8 @@
     "what": "A small web app on Azure Container Apps or App Service that reads an API key from Key Vault and writes uploaded files to a Storage account, using a user-assigne",
     "hours": "5",
     "status": "built",
-    "tech": "34 files"
+    "tech": "34 files",
+    "url": "https://github.com/plainround-projects/azure-secretless-app"
   },
   {
     "track": "azure",
@@ -257,7 +282,8 @@
     "what": "An order-processing worker that reads commands from an Azure Service Bus queue and writes results to a small database.",
     "hours": "9",
     "status": "built",
-    "tech": "31 files"
+    "tech": "31 files",
+    "url": "https://github.com/plainround-projects/azure-service-bus-worker"
   },
   {
     "track": "azure",
@@ -267,7 +293,8 @@
     "what": "A small platform slice: a management group with policies, a hub virtual network with shared services, and a spoke network where an app reaches Key Vault and Sto",
     "hours": "14",
     "status": "built",
-    "tech": "33 files"
+    "tech": "33 files",
+    "url": "https://github.com/plainround-projects/azure-private-platform-slice"
   },
   {
     "track": "batch-integration",
@@ -277,7 +304,8 @@
     "what": "A Spring Batch job that imports a product catalog from a CSV file of 200,000 rows into a database table: read, validate and transform, then write in chunks.",
     "hours": "6",
     "tech": "27 files",
-    "status": "built"
+    "status": "built",
+    "url": "https://github.com/plainround-projects/batch-integration-restartable-import"
   },
   {
     "track": "batch-integration",
@@ -287,7 +315,8 @@
     "what": "A nightly job that recalculates loyalty points for five million customer accounts from their month of transactions, and must finish within a two-hour window.",
     "hours": "10",
     "tech": "28 files",
-    "status": "built"
+    "status": "built",
+    "url": "https://github.com/plainround-projects/batch-integration-scale-a-batch-job"
   },
   {
     "track": "batch-integration",
@@ -297,7 +326,8 @@
     "what": "A pretend legacy partner drops a file of orders on an SFTP server every night, and a batch job loads it the next morning, so orders arrive up to a day late.",
     "hours": "14",
     "tech": "32 files",
-    "status": "built"
+    "status": "built",
+    "url": "https://github.com/plainround-projects/batch-integration-replace-a-file-drop"
   },
   {
     "track": "cicd",
@@ -307,7 +337,8 @@
     "what": "A CI pipeline for a small service of your own, on any CI system: it builds once, runs lint, unit tests and a short integration test in parallel, publishes test ",
     "hours": "5",
     "status": "built",
-    "tech": "29 files"
+    "tech": "29 files",
+    "url": "https://github.com/plainround-projects/cicd-green-main"
   },
   {
     "track": "cicd",
@@ -318,7 +349,8 @@
     "hours": "12",
     "status": "built",
     "note": "all six steps run on the kind cluster on 2026-11-02: make up && make run && make test-e2e passed (6 passed in 257.74s), cluster deleted afterwards",
-    "tech": "32 files"
+    "tech": "32 files",
+    "url": "https://github.com/plainround-projects/cicd-canary-with-rollback"
   },
   {
     "track": "cicd",
@@ -328,7 +360,8 @@
     "what": "A small internal platform for a pretend organization of three teams: a template that creates a new service repository with a working pipeline, signed artifacts,",
     "hours": "14",
     "status": "built",
-    "tech": "31 files"
+    "tech": "31 files",
+    "url": "https://github.com/plainround-projects/cicd-golden-path-and-dora"
   },
   {
     "track": "cloud-security",
@@ -338,7 +371,8 @@
     "what": "A small cloud workload in a sandbox account you own, a service that reads and writes files in object storage and a secret in a secrets manager, threat-modeled o",
     "hours": "7",
     "status": "built",
-    "tech": "37 files"
+    "tech": "37 files",
+    "url": "https://github.com/plainround-projects/cloud-security-threat-model-a-workload"
   },
   {
     "track": "cloud-security",
@@ -348,7 +382,8 @@
     "what": "A small multi-tenant setup in a sandbox account: two tenants, each with a workload and its own data in object storage and its own encryption key, sharing the sa",
     "hours": "11",
     "status": "built",
-    "tech": "38 files"
+    "tech": "38 files",
+    "url": "https://github.com/plainround-projects/cloud-security-isolate-two-tenants"
   },
   {
     "track": "cloud-security",
@@ -358,7 +393,8 @@
     "what": "The detection-and-response layer for a sandbox cloud account: every action logged to a tamper-resistant store, a set of detections for the actions that matter (",
     "hours": "14",
     "status": "built",
-    "tech": "38 files"
+    "tech": "38 files",
+    "url": "https://github.com/plainround-projects/cloud-security-detect-and-respond"
   },
   {
     "track": "compliance",
@@ -369,7 +405,8 @@
     "hours": "6",
     "status": "built",
     "tech": "52 files",
-    "pending": "tech/ notes: container commands not run (pending capacity); see the repository README, Verification status of the tech/ notes"
+    "pending": "tech/ notes: container commands not run (pending capacity); see the repository README, Verification status of the tech/ notes",
+    "url": "https://github.com/plainround-projects/compliance-controls-and-evidence"
   },
   {
     "track": "compliance",
@@ -379,7 +416,8 @@
     "what": "A small app that holds personal data in several places (the primary database, a search index, a cache, logs, and backups) and the machinery to honor the rights ",
     "hours": "10",
     "status": "built",
-    "tech": "39 files"
+    "tech": "39 files",
+    "url": "https://github.com/plainround-projects/compliance-privacy-by-design"
   },
   {
     "track": "compliance",
@@ -390,7 +428,8 @@
     "hours": "12",
     "status": "built",
     "tech": "56 files",
-    "pending": "tech/ notes: container commands not run (pending capacity); see the repository README, Verification status of the tech/ notes"
+    "pending": "tech/ notes: container commands not run (pending capacity); see the repository README, Verification status of the tech/ notes",
+    "url": "https://github.com/plainround-projects/compliance-shrink-pci-scope"
   },
   {
     "track": "data-platform",
@@ -400,7 +439,8 @@
     "what": "A small analytics pipeline for a pretend online bookshop: an operational PostgreSQL database with customers, books, orders and order lines, a nightly extract in",
     "hours": "6",
     "tech": "23 files",
-    "status": "built"
+    "status": "built",
+    "url": "https://github.com/plainround-projects/data-platform-star-schema"
   },
   {
     "track": "data-platform",
@@ -410,7 +450,8 @@
     "what": "A change data capture pipeline: changes to an `orders` table in PostgreSQL are read from the database's log, published to a broker, and applied by a processing ",
     "hours": "12",
     "tech": "26 files",
-    "status": "built"
+    "status": "built",
+    "url": "https://github.com/plainround-projects/data-platform-cdc-to-lakehouse"
   },
   {
     "track": "data-platform",
@@ -420,7 +461,8 @@
     "what": "The governance layer for a small pipeline that feeds a revenue dashboard: a data contract between the team that owns the source and the team that owns the dashb",
     "hours": "12",
     "tech": "22 files",
-    "status": "built"
+    "status": "built",
+    "url": "https://github.com/plainround-projects/data-platform-quality-and-governance"
   },
   {
     "track": "databases",
@@ -430,7 +472,8 @@
     "what": "The data layer for a small equipment-rental shop: customers, items, and rentals of an item for a date range.",
     "hours": "6",
     "status": "built",
-    "tech": "28 files"
+    "tech": "28 files",
+    "url": "https://github.com/plainround-projects/databases-model-two-ways"
   },
   {
     "track": "databases",
@@ -440,7 +483,8 @@
     "what": "A small lab of transaction anomalies in PostgreSQL, each a pair of scripts you run side by side in two sessions with pauses at the right moments.",
     "hours": "9",
     "status": "built",
-    "tech": "27 files"
+    "tech": "27 files",
+    "url": "https://github.com/plainround-projects/databases-isolation-anomalies"
   },
   {
     "track": "databases",
@@ -450,7 +494,8 @@
     "what": "The storage for an activity feed: devices send events (several thousand a second at peak), and the app shows each user the latest 50 events for each of their de",
     "hours": "14",
     "status": "built",
-    "tech": "33 files"
+    "tech": "33 files",
+    "url": "https://github.com/plainround-projects/databases-write-heavy-feed"
   },
   {
     "track": "docker",
@@ -460,7 +505,8 @@
     "what": "A small web app of your own (a notes or to-do service in any language) running in a container next to PostgreSQL, started with one `docker compose up`.",
     "hours": "4",
     "status": "built",
-    "tech": "26 files"
+    "tech": "26 files",
+    "url": "https://github.com/plainround-projects/docker-containerize-an-app"
   },
   {
     "track": "docker",
@@ -470,7 +516,8 @@
     "what": "An image pipeline for a compiled service (Java, Go or similar) that starts as a one-stage build on a full SDK image of around a gigabyte, with a private package",
     "hours": "8",
     "status": "built",
-    "tech": "27 files"
+    "tech": "27 files",
+    "url": "https://github.com/plainround-projects/docker-shrink-and-harden"
   },
   {
     "track": "docker",
@@ -480,7 +527,8 @@
     "what": "A failure lab on one Linux host or VM: a small service and a worker that you can switch into six bad behaviors, and a runbook built from what you saw.",
     "hours": "10",
     "status": "built",
-    "tech": "26 files"
+    "tech": "26 files",
+    "url": "https://github.com/plainround-projects/docker-container-failures"
   },
   {
     "track": "gcp",
@@ -490,7 +538,8 @@
     "what": "Two small containers on Cloud Run in a project of your own: an API that accepts an upload request and publishes a message to a Pub/Sub topic, and a worker that ",
     "hours": "6",
     "status": "built",
-    "tech": "39 files"
+    "tech": "39 files",
+    "url": "https://github.com/plainround-projects/gcp-cloud-run-pubsub"
   },
   {
     "track": "gcp",
@@ -500,7 +549,8 @@
     "what": "A GKE cluster running a small service that reads and writes files in a Cloud Storage bucket, with no service account key anywhere: pods get short-lived credenti",
     "hours": "10",
     "status": "built",
-    "tech": "38 files"
+    "tech": "38 files",
+    "url": "https://github.com/plainround-projects/gcp-gke-identity-and-keys"
   },
   {
     "track": "gcp",
@@ -510,7 +560,8 @@
     "what": "A slice of a landing zone in an organization you own (a free identity domain is enough): folders for production and non-production, organization policies set at",
     "hours": "14",
     "status": "built",
-    "tech": "36 files"
+    "tech": "36 files",
+    "url": "https://github.com/plainround-projects/gcp-landing-zone-slice"
   },
   {
     "track": "github-actions",
@@ -520,7 +571,8 @@
     "what": "A CI workflow for a small library of your own in a repository you own: it tests on three language versions and two operating systems, caches dependencies, uploa",
     "hours": "4",
     "status": "built",
-    "tech": "26 files"
+    "tech": "26 files",
+    "url": "https://github.com/plainround-projects/github-actions-fast-ci-workflow"
   },
   {
     "track": "github-actions",
@@ -530,7 +582,8 @@
     "what": "A small \"platform\" repository with a reusable workflow for building and testing services and a composite action that sets up the toolchain, plus three consumer ",
     "hours": "8",
     "status": "built",
-    "tech": "24 files"
+    "tech": "24 files",
+    "url": "https://github.com/plainround-projects/github-actions-reusable-workflows"
   },
   {
     "track": "github-actions",
@@ -540,7 +593,8 @@
     "what": "A deliberately vulnerable repository of your own, then the hardened version of it.",
     "hours": "12",
     "status": "built",
-    "tech": "30 files"
+    "tech": "30 files",
+    "url": "https://github.com/plainround-projects/github-actions-attack-and-harden"
   },
   {
     "track": "gitops",
@@ -551,7 +605,8 @@
     "hours": "5",
     "status": "built",
     "verified": "offline tests and lint pass; live cluster or stack run pending capacity (Docker.raw at its 60 GiB cap on 2026-10-28); see the repository README, Verification status",
-    "tech": "26 files"
+    "tech": "26 files",
+    "url": "https://github.com/plainround-projects/gitops-reconcile-and-drift"
   },
   {
     "track": "gitops",
@@ -562,7 +617,8 @@
     "hours": "10",
     "status": "built",
     "verified": "live cluster run on 2026-11-02: make up, make run and make test-cluster (13 tests) pass; see the repository README, Verification status",
-    "tech": "29 files"
+    "tech": "29 files",
+    "url": "https://github.com/plainround-projects/gitops-environments-and-secrets"
   },
   {
     "track": "gitops",
@@ -573,7 +629,8 @@
     "hours": "14",
     "status": "built",
     "verified": "live cluster run on 2026-11-02: make up passes and make test-cluster passes (16 tests); see the repository README, Verification status",
-    "tech": "27 files"
+    "tech": "27 files",
+    "url": "https://github.com/plainround-projects/gitops-fleet-and-bad-commit"
   },
   {
     "track": "grpc",
@@ -583,7 +640,8 @@
     "what": "An inventory service in gRPC: `GetItem` (unary), `ListItems` (server streaming) and `WatchStock` (server streaming that pushes changes).",
     "hours": "6",
     "status": "built",
-    "tech": "26 files"
+    "tech": "26 files",
+    "url": "https://github.com/plainround-projects/grpc-inventory-contract"
   },
   {
     "track": "grpc",
@@ -593,7 +651,8 @@
     "what": "Three replicas of a gRPC service on a local Kubernetes cluster, a client that sends a steady stream of calls, and a dashboard of requests per replica.",
     "hours": "10",
     "status": "built",
-    "tech": "30 files"
+    "tech": "30 files",
+    "url": "https://github.com/plainround-projects/grpc-uneven-load"
   },
   {
     "track": "grpc",
@@ -603,7 +662,8 @@
     "what": "Three gRPC services in a chain: a front service, a quote service and a stock service.",
     "hours": "14",
     "status": "built",
-    "tech": "28 files"
+    "tech": "28 files",
+    "url": "https://github.com/plainround-projects/grpc-deadlines-across-hops"
   },
   {
     "track": "java",
@@ -613,7 +673,8 @@
     "what": "A command-line tool, `spend`, that reads a CSV export of card transactions and prints a monthly report: total spent per category per month, the five largest pur",
     "hours": "6",
     "status": "built",
-    "tech": "27 files"
+    "tech": "27 files",
+    "url": "https://github.com/plainround-projects/java-spending-report"
   },
   {
     "track": "java",
@@ -623,7 +684,8 @@
     "what": "A link checker: give it a start page on a site you run locally, and it follows every link on the same host, checks each one, and prints a report of broken links",
     "hours": "10",
     "status": "built",
-    "tech": "32 files"
+    "tech": "32 files",
+    "url": "https://github.com/plainround-projects/java-link-checker"
   },
   {
     "track": "java",
@@ -633,7 +695,8 @@
     "what": "A small HTTP service, then two production problems inside it, then the evidence that finds them.",
     "hours": "14",
     "status": "built",
-    "tech": "35 files"
+    "tech": "35 files",
+    "url": "https://github.com/plainround-projects/java-leak-hunt"
   },
   {
     "track": "jenkins",
@@ -644,7 +707,8 @@
     "hours": "5",
     "status": "built",
     "verified": "offline tests and lint pass; live cluster or stack run pending capacity (Docker.raw at its 60 GiB cap on 2026-10-28); see the repository README, Verification status",
-    "tech": "32 files"
+    "tech": "32 files",
+    "url": "https://github.com/plainround-projects/jenkins-controller-as-code"
   },
   {
     "track": "jenkins",
@@ -655,7 +719,8 @@
     "hours": "10",
     "status": "built",
     "verified": "offline tests and lint pass; live cluster or stack run pending capacity (Docker.raw at its 60 GiB cap on 2026-10-28); see the repository README, Verification status",
-    "tech": "34 files"
+    "tech": "34 files",
+    "url": "https://github.com/plainround-projects/jenkins-shared-library"
   },
   {
     "track": "jenkins",
@@ -666,7 +731,8 @@
     "hours": "14",
     "status": "built",
     "verified": "offline tests and lint pass; live cluster or stack run pending capacity (Docker.raw at its 60 GiB cap on 2026-10-28); see the repository README, Verification status",
-    "tech": "31 files"
+    "tech": "31 files",
+    "url": "https://github.com/plainround-projects/jenkins-scale-and-break"
   },
   {
     "track": "kafka",
@@ -676,7 +742,8 @@
     "what": "An order-events stream on a single-node Kafka 4 cluster in a container: a producer that publishes `OrderPlaced`, `OrderPaid` and `OrderShipped` events, and a co",
     "hours": "6",
     "status": "built",
-    "tech": "30 files files"
+    "tech": "30 files files",
+    "url": "https://github.com/plainround-projects/kafka-order-events"
   },
   {
     "track": "kafka",
@@ -686,7 +753,8 @@
     "what": "A consumer that reads payment events and keeps an account-balance table in PostgreSQL up to date.",
     "hours": "10",
     "status": "built",
-    "tech": "33 files files"
+    "tech": "33 files files",
+    "url": "https://github.com/plainround-projects/kafka-idempotent-consumer"
   },
   {
     "track": "kafka",
@@ -696,7 +764,8 @@
     "what": "A three-broker Kafka cluster in containers and a small pipeline on it: a producer writes transfer events, a processor reads them and writes per-account daily to",
     "hours": "16",
     "status": "built",
-    "tech": "34 files files"
+    "tech": "34 files files",
+    "url": "https://github.com/plainround-projects/kafka-durable-pipeline"
   },
   {
     "track": "kubernetes",
@@ -706,7 +775,8 @@
     "what": "A two-part app on a local cluster (kind, k3d or minikube): a small web service of your own and a Redis instance it uses as a counter.",
     "hours": "6",
     "status": "built",
-    "tech": "28 files"
+    "tech": "28 files",
+    "url": "https://github.com/plainround-projects/kubernetes-break-it-five-ways"
   },
   {
     "track": "kubernetes",
@@ -716,7 +786,8 @@
     "what": "A small HTTP service on a local cluster with three nodes, under constant load from a load generator that counts every failed request.",
     "hours": "10",
     "status": "built",
-    "tech": "31 files"
+    "tech": "31 files",
+    "url": "https://github.com/plainround-projects/kubernetes-zero-downtime"
   },
   {
     "track": "kubernetes",
@@ -726,7 +797,8 @@
     "what": "Two team namespaces on a local cluster whose network plugin enforces NetworkPolicy, each running a small web service and a database.",
     "hours": "12",
     "status": "built",
-    "tech": "34 files"
+    "tech": "34 files",
+    "url": "https://github.com/plainround-projects/kubernetes-harden-a-namespace"
   },
   {
     "track": "microservices",
@@ -736,7 +808,8 @@
     "what": "A small monolith with three capabilities in one process and one database: catalog, orders and notifications.",
     "hours": "8",
     "status": "built",
-    "tech": "24 files"
+    "tech": "24 files",
+    "url": "https://github.com/plainround-projects/microservices-strangle-a-capability"
   },
   {
     "track": "microservices",
@@ -746,7 +819,8 @@
     "what": "A checkout that spans three services: orders, payments and inventory, each with its own database.",
     "hours": "14",
     "status": "built",
-    "tech": "28 files"
+    "tech": "28 files",
+    "url": "https://github.com/plainround-projects/microservices-saga-with-outbox"
   },
   {
     "track": "microservices",
@@ -756,7 +830,8 @@
     "what": "A chain of four small services, gateway to search to pricing to a stock store, each with a naive client that retries three times on any error.",
     "hours": "16",
     "status": "built",
-    "tech": "27 files"
+    "tech": "27 files",
+    "url": "https://github.com/plainround-projects/microservices-retry-storm"
   },
   {
     "track": "observability",
@@ -766,7 +841,8 @@
     "what": "Two small services of your own, a front service that calls a back service that queries a database, instrumented with OpenTelemetry and sending everything throug",
     "hours": "6",
     "status": "built",
-    "tech": "34 files"
+    "tech": "34 files",
+    "url": "https://github.com/plainround-projects/observability-three-signals"
   },
   {
     "track": "observability",
@@ -776,7 +852,8 @@
     "what": "A small app with a metrics backend that you overload on purpose.",
     "hours": "9",
     "status": "built",
-    "tech": "32 files"
+    "tech": "32 files",
+    "url": "https://github.com/plainround-projects/observability-cardinality-blowup"
   },
   {
     "track": "observability",
@@ -786,7 +863,8 @@
     "what": "An observability setup for a small service that a team could actually live with on call.",
     "hours": "12",
     "status": "built",
-    "tech": "38 files"
+    "tech": "38 files",
+    "url": "https://github.com/plainround-projects/observability-slo-alerts-and-cost"
   },
   {
     "track": "ood",
@@ -796,7 +874,8 @@
     "what": "The booking core of a meeting-room system for one office: rooms with a capacity, bookings for a time range, and the rule that two bookings of one room never ove",
     "hours": "5",
     "status": "built",
-    "tech": "32 files"
+    "tech": "32 files",
+    "url": "https://github.com/plainround-projects/ood-room-booking"
   },
   {
     "track": "ood",
@@ -806,7 +885,8 @@
     "what": "The pricing step of a shopping cart: a cart of lines goes in, a priced cart comes out, with every discount listed and explained.",
     "hours": "9",
     "status": "built",
-    "tech": "32 files"
+    "tech": "32 files",
+    "url": "https://github.com/plainround-projects/ood-pricing-rules"
   },
   {
     "track": "ood",
@@ -816,7 +896,8 @@
     "what": "The seat-hold core of an event ticketing system.",
     "hours": "14",
     "status": "built",
-    "tech": "39 files"
+    "tech": "39 files",
+    "url": "https://github.com/plainround-projects/ood-seat-holds"
   },
   {
     "track": "payments",
@@ -826,7 +907,8 @@
     "what": "A small payments service against a payment provider's test mode: it authorizes and captures a payment, records every money movement in a double-entry ledger, an",
     "hours": "7",
     "status": "built",
-    "tech": "43 files"
+    "tech": "43 files",
+    "url": "https://github.com/plainround-projects/payments-idempotent-payments"
   },
   {
     "track": "payments",
@@ -836,7 +918,8 @@
     "what": "A reconciliation system for a small payments service: every day it compares your own ledger with the settlement report a provider sends, finds the transactions ",
     "hours": "10",
     "status": "built",
-    "tech": "43 files"
+    "tech": "43 files",
+    "url": "https://github.com/plainround-projects/payments-reconciliation"
   },
   {
     "track": "payments",
@@ -846,7 +929,8 @@
     "what": "An open-banking style payment: a made-up merchant asks a made-up bank to move money from a customer's account, with the customer's explicit consent and strong a",
     "hours": "14",
     "status": "built",
-    "tech": "47 files"
+    "tech": "47 files",
+    "url": "https://github.com/plainround-projects/payments-secure-open-banking"
   },
   {
     "track": "python",
@@ -856,7 +940,8 @@
     "what": "A command-line tool, `logsum`, that reads a web server access log and prints a summary: requests per status code, the ten slowest paths by 95th-percentile laten",
     "hours": "5",
     "status": "built",
-    "tech": "24 files"
+    "tech": "24 files",
+    "url": "https://github.com/plainround-projects/python-log-summarizer"
   },
   {
     "track": "python",
@@ -866,7 +951,8 @@
     "what": "A small inventory API with FastAPI: `GET /items/{id}`, `POST /items` and `GET /report`, backed by SQLite, with typed request and response models.",
     "hours": "9",
     "status": "built",
-    "tech": "30 files"
+    "tech": "30 files",
+    "url": "https://github.com/plainround-projects/python-blocked-event-loop"
   },
   {
     "track": "python",
@@ -876,7 +962,8 @@
     "what": "A batch tool that scores text documents for near-duplicates: for each of 20,000 short documents it builds a set of word shingles (runs of three words) and finds",
     "hours": "12",
     "status": "built",
-    "tech": "27 files"
+    "tech": "27 files",
+    "url": "https://github.com/plainround-projects/python-cpu-bound-job"
   },
   {
     "track": "rest",
@@ -886,7 +973,8 @@
     "what": "The API for a small event-booking service: events, their sessions and attendees' registrations.",
     "hours": "6",
     "status": "built",
-    "tech": "43 files"
+    "tech": "43 files",
+    "url": "https://github.com/plainround-projects/rest-design-and-lint"
   },
   {
     "track": "rest",
@@ -896,7 +984,8 @@
     "what": "A small orders API with two dangerous operations made safe.",
     "hours": "9",
     "status": "built",
-    "tech": "39 files"
+    "tech": "39 files",
+    "url": "https://github.com/plainround-projects/rest-safe-retries"
   },
   {
     "track": "rest",
@@ -906,7 +995,8 @@
     "what": "A customer API with a breaking change to make: version 1 returns `name` as one string, and version 2 must return `givenName` and `familyName`, with a new requir",
     "hours": "12",
     "status": "built",
-    "tech": "39 files"
+    "tech": "39 files",
+    "url": "https://github.com/plainround-projects/rest-version-and-retire"
   },
   {
     "track": "security",
@@ -916,7 +1006,8 @@
     "what": "A small notes app of your own (users sign in, write notes, share some), threat-modeled on one page and then hardened against the vulnerabilities that top the OW",
     "hours": "8",
     "status": "built",
-    "tech": "33 files"
+    "tech": "33 files",
+    "url": "https://github.com/plainround-projects/security-threat-model-and-harden"
   },
   {
     "track": "security",
@@ -926,7 +1017,8 @@
     "what": "Sign-in for a small app using an identity provider you run locally (a self-hosted OpenID Connect provider in a container is enough), with the authorization code",
     "hours": "10",
     "status": "built",
-    "tech": "35 files"
+    "tech": "35 files",
+    "url": "https://github.com/plainround-projects/security-oauth-login-done-right"
   },
   {
     "track": "security",
@@ -936,7 +1028,8 @@
     "what": "The build and release path for a small service, hardened against the ways software is compromised before it ever runs: secrets that live in a manager rather tha",
     "hours": "12",
     "status": "built",
-    "tech": "41 files"
+    "tech": "41 files",
+    "url": "https://github.com/plainround-projects/security-secure-the-pipeline"
   },
   {
     "track": "service-mesh",
@@ -946,7 +1039,8 @@
     "what": "Three small services on a local cluster with Istio installed: a web front end, an API and a back end.",
     "hours": "6",
     "status": "partial",
-    "tech": "30 files"
+    "tech": "30 files",
+    "url": "https://github.com/plainround-projects/service-mesh-strict-mtls"
   },
   {
     "track": "service-mesh",
@@ -956,7 +1050,8 @@
     "what": "Ingress and service-to-service traffic for a small app in a mesh, configured with the Gateway API: a gateway with HTTPS, routes to two versions of a service wit",
     "hours": "10",
     "status": "partial",
-    "tech": "32 files"
+    "tech": "32 files",
+    "url": "https://github.com/plainround-projects/service-mesh-traffic-and-faults"
   },
   {
     "track": "service-mesh",
@@ -966,7 +1061,8 @@
     "what": "A small app of five services running in Istio with sidecars, measured, then moved to ambient mode one namespace at a time and measured again.",
     "hours": "14",
     "status": "partial",
-    "tech": "35 files"
+    "tech": "35 files",
+    "url": "https://github.com/plainround-projects/service-mesh-ambient-and-authz"
   },
   {
     "track": "spring",
@@ -978,7 +1074,8 @@
     "status": "built",
     "built": "2026-10-27",
     "pending": "Docker-based checks (make up, run, audit, fresh clone); see the repository README, Verification status",
-    "tech": "36 files"
+    "tech": "36 files",
+    "url": "https://github.com/plainround-projects/spring-reading-list-api"
   },
   {
     "track": "spring",
@@ -990,7 +1087,8 @@
     "status": "built",
     "built": "2026-10-27",
     "pending": "Docker-based checks (make up, run, audit, fresh clone); see the repository README, Verification status",
-    "tech": "42 files"
+    "tech": "42 files",
+    "url": "https://github.com/plainround-projects/spring-order-service-traps"
   },
   {
     "track": "spring",
@@ -1002,7 +1100,8 @@
     "status": "built",
     "built": "2026-10-27",
     "pending": "Docker-based checks (make up, run, audit, fresh clone); see the repository README, Verification status",
-    "tech": "43 files"
+    "tech": "43 files",
+    "url": "https://github.com/plainround-projects/spring-resilient-client"
   },
   {
     "track": "sql-optimization",
@@ -1012,7 +1111,8 @@
     "what": "An `orders` table with one million rows in PostgreSQL or MySQL, seeded by a script with realistic skew (a few customers with many orders, most with a few), and ",
     "hours": "5",
     "status": "built",
-    "tech": "34 files"
+    "tech": "34 files",
+    "url": "https://github.com/plainround-projects/sql-optimization-three-slow-queries"
   },
   {
     "track": "sql-optimization",
@@ -1022,7 +1122,8 @@
     "what": "A small web app with an ORM that lists orders with their customers, 20 to a page, and a load script that clicks through pages like real users, deep pages includ",
     "hours": "9",
     "status": "built",
-    "tech": "41 files"
+    "tech": "41 files",
+    "url": "https://github.com/plainround-projects/sql-optimization-busy-listing"
   },
   {
     "track": "sql-optimization",
@@ -1032,7 +1133,8 @@
     "what": "A 50-million-row `events` table under constant read and write load from a script, and three changes you must make to it while the load keeps running: add a new ",
     "hours": "14",
     "status": "built",
-    "tech": "38 files"
+    "tech": "38 files",
+    "url": "https://github.com/plainround-projects/sql-optimization-locks-and-migration"
   },
   {
     "track": "sre",
@@ -1042,7 +1144,8 @@
     "what": "SLOs for a small web service of your own, a URL shortener or a notes app, and the tooling to measure them: a script or a dashboard that reads the service's requ",
     "hours": "5",
     "status": "built",
-    "tech": "33 files"
+    "tech": "33 files",
+    "url": "https://github.com/plainround-projects/sre-slos-and-budget"
   },
   {
     "track": "sre",
@@ -1052,7 +1155,8 @@
     "what": "A game day for a small three-service system of your own, with one or two friends or colleagues if you can (alone, you play every role in turn).",
     "hours": "10",
     "status": "built",
-    "tech": "37 files"
+    "tech": "37 files",
+    "url": "https://github.com/plainround-projects/sre-game-day"
   },
   {
     "track": "sre",
@@ -1062,7 +1166,8 @@
     "what": "A capacity plan and a readiness review for a small service that is about to \"launch\": a load test that finds the point where latency rises sharply, a model of h",
     "hours": "12",
     "status": "partial",
-    "tech": "39 files"
+    "tech": "39 files",
+    "url": "https://github.com/plainround-projects/sre-capacity-and-readiness"
   },
   {
     "track": "testing",
@@ -1072,7 +1177,8 @@
     "what": "A full set of tests for one small feature of your own, a discount calculator for a shopping cart, at every level of the pyramid: many fast unit tests for the ru",
     "hours": "6",
     "status": "built",
-    "tech": "33 files"
+    "tech": "33 files",
+    "url": "https://github.com/plainround-projects/testing-pyramid-for-one-feature"
   },
   {
     "track": "testing",
@@ -1082,7 +1188,8 @@
     "what": "Two services of your own, a front service and a back service, with a consumer-driven contract between them, plus a small end-to-end suite that you make flaky on",
     "hours": "10",
     "status": "built",
-    "tech": "33 files"
+    "tech": "33 files",
+    "url": "https://github.com/plainround-projects/testing-contracts-and-flake"
   },
   {
     "track": "testing",
@@ -1092,6 +1199,7 @@
     "what": "A testing suite for the non-functional behavior of a small two-service system: a performance test that fails when p99 latency or throughput misses a target, a s",
     "hours": "14",
     "status": "built",
-    "tech": "29 files"
+    "tech": "29 files",
+    "url": "https://github.com/plainround-projects/testing-prove-resilience"
   }
 ]
