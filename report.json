@@ -1,0 +1,29 @@
+[
+ {
+  "repo": "kubernetes-zero-downtime",
+  "tech_files": 32,
+  "lines": 2795,
+  "quoted": 2795,
+  "pct": 100.0,
+  "worst": [
+   [
+    100,
+    ".dockerignore",
+    17,
+    17
+   ],
+   [
+    100,
+    ".env.example",
+    12,
+    12
+   ],
+   [
+    100,
+    ".github/workflows/ci.yml",
+    45,
+    45
+   ]
+  ]
+ }
+]

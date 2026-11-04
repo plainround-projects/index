@@ -1,0 +1,7 @@
+# Project folders are their own repositories
+*/
+!tech/
+!tools/
+# stray file from a mistyped command
+--help
+.DS_Store

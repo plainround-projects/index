@@ -1,0 +1,1097 @@
+[
+  {
+    "track": "ai",
+    "file": "100-project-gateway-and-eval-gate.md",
+    "lesson": "/prep/ai/project-gateway-and-eval-gate",
+    "repo": "ai-gateway-and-eval-gate",
+    "what": "Two pieces in front of the cited-answers system from the Module 3 project.",
+    "hours": "16",
+    "status": "built",
+    "tech": "55 files"
+  },
+  {
+    "track": "ai",
+    "file": "101-project-reflect-and-regrade.md",
+    "lesson": "/prep/ai/project-reflect-and-regrade",
+    "repo": "ai-reflect-and-regrade",
+    "what": "A self-correcting writer for support replies.",
+    "hours": "10",
+    "status": "built",
+    "tech": "43 files"
+  },
+  {
+    "track": "ai",
+    "file": "102-project-lora-beats-its-prompt.md",
+    "lesson": "/prep/ai/project-lora-beats-its-prompt",
+    "repo": "ai-lora-beats-its-prompt",
+    "what": "A small open-weight model, adapted with LoRA, that rewrites a support agent's rough notes into Plainround's handoff format: fixed sections in a fixed order, dat",
+    "hours": "14",
+    "status": "built",
+    "tech": "50 files"
+  },
+  {
+    "track": "ai",
+    "file": "103-project-serve-and-load-test.md",
+    "lesson": "/prep/ai/project-serve-and-load-test",
+    "repo": "ai-serve-and-load-test",
+    "what": "A small open-weight model served on one accelerator (or a laptop for a very small model) behind an OpenAI-compatible endpoint, at two quantization levels.",
+    "hours": "10",
+    "status": "built",
+    "tech": "48 files"
+  },
+  {
+    "track": "ai",
+    "file": "104-project-cost-aware-router.md",
+    "lesson": "/prep/ai/project-cost-aware-router",
+    "repo": "ai-cost-aware-router",
+    "what": "A router that sits in front of three models of rising price and skill.",
+    "hours": "10",
+    "status": "built",
+    "tech": "43 files"
+  },
+  {
+    "track": "ai",
+    "file": "105-project-guardrails-and-red-team.md",
+    "lesson": "/prep/ai/project-guardrails-and-red-team",
+    "repo": "ai-guardrails-and-red-team",
+    "what": "A guard layer around the track's sample support assistant, the one that answers order and policy questions for a small online shop through a read-only `find_ord",
+    "hours": "12",
+    "status": "built",
+    "tech": "43 files"
+  },
+  {
+    "track": "ai",
+    "file": "106-project-document-extraction-review-queue.md",
+    "lesson": "/prep/ai/project-document-extraction-review-queue",
+    "repo": "ai-document-extraction-review-queue",
+    "what": "A pipeline for the shop's one-page return request form: order number, customer email, return date, item lines with quantity and amount, a total, a reason code f",
+    "hours": "12",
+    "status": "built",
+    "tech": "29 files"
+  },
+  {
+    "track": "ai",
+    "file": "107-project-support-agent-no-refund.md",
+    "lesson": "/prep/ai/project-support-agent-no-refund",
+    "repo": "ai-support-agent-no-refund",
+    "what": "The shop's support agent with three tools: `find_order` (read), `search_help` (read, returns help-center pages) and `request_refund` (write).",
+    "hours": "14",
+    "status": "built",
+    "tech": "34 files"
+  },
+  {
+    "track": "ai",
+    "file": "108-project-traces-to-trusted-eval-set.md",
+    "lesson": "/prep/ai/project-traces-to-trusted-eval-set",
+    "repo": "ai-traces-to-trusted-eval-set",
+    "what": "A small pipeline that reads 1,000 sample traces from the support assistant and writes eval set v1: `cases.jsonl`, `labels.jsonl`, a datasheet that says what the",
+    "hours": "10",
+    "status": "built",
+    "tech": "26 files"
+  },
+  {
+    "track": "ai",
+    "file": "109-project-streaming-assistant-latency-budget.md",
+    "lesson": "/prep/ai/project-streaming-assistant-latency-budget",
+    "repo": "ai-streaming-assistant-latency-budget",
+    "what": "The support assistant as a streaming endpoint (server-sent events) with a small page.",
+    "hours": "14",
+    "status": "built",
+    "tech": "38 files"
+  },
+  {
+    "track": "ai",
+    "file": "110-project-ship-an-ai-service.md",
+    "lesson": "/prep/ai/project-ship-an-ai-service",
+    "repo": "ai-ship-an-ai-service",
+    "what": "The support-email extractor from the Module 2 project (an email in; a typed ticket with intent, order number, sentiment and requested action out) as a small HTT",
+    "hours": "10",
+    "status": "built",
+    "tech": "36 files"
+  },
+  {
+    "track": "ai",
+    "file": "111-project-event-driven-ai-worker.md",
+    "lesson": "/prep/ai/project-event-driven-ai-worker",
+    "repo": "ai-event-driven-ai-worker",
+    "what": "A worker for the support inbox.",
+    "hours": "10",
+    "status": "built",
+    "tech": "36 files"
+  },
+  {
+    "track": "ai",
+    "file": "112-project-model-migration-drill.md",
+    "lesson": "/prep/ai/project-model-migration-drill",
+    "repo": "ai-model-migration-drill",
+    "what": "A migration of the Module 13 service (the email extractor run as a service) from its pinned model to a candidate: a newer version of the same model or a differe",
+    "hours": "10",
+    "status": "built",
+    "tech": "48 files"
+  },
+  {
+    "track": "ai",
+    "file": "95-project-token-and-cost-meter.md",
+    "lesson": "/prep/ai/project-token-and-cost-meter",
+    "repo": "ai-token-and-cost-meter",
+    "what": "A small command-line tool, `meter`, that reads a file of prompts, estimates the tokens and cost of each one before calling, calls the model at three decoding se",
+    "hours": "6",
+    "status": "built",
+    "tech": "43 files"
+  },
+  {
+    "track": "ai",
+    "file": "96-project-structured-extraction.md",
+    "lesson": "/prep/ai/project-structured-extraction",
+    "repo": "ai-structured-extraction",
+    "what": "An extractor that reads a support email and returns a record your code can trust: the order id (or none), a category, whether a refund is asked for, the amount ",
+    "hours": "8",
+    "status": "built",
+    "tech": "44 files"
+  },
+  {
+    "track": "ai",
+    "file": "97-project-cited-answers.md",
+    "lesson": "/prep/ai/project-cited-answers",
+    "repo": "ai-cited-answers",
+    "what": "A question-answering service over a help center.",
+    "hours": "12",
+    "status": "built",
+    "tech": "53 files"
+  },
+  {
+    "track": "ai",
+    "file": "98-project-scheduling-agent.md",
+    "lesson": "/prep/ai/project-scheduling-agent",
+    "repo": "ai-scheduling-agent",
+    "what": "A scheduling assistant that books, moves and cancels meetings on a sample calendar service.",
+    "hours": "14",
+    "status": "built",
+    "tech": "53 files"
+  },
+  {
+    "track": "ai",
+    "file": "99-project-tool-orchestrator.md",
+    "lesson": "/prep/ai/project-tool-orchestrator",
+    "repo": "ai-tool-orchestrator",
+    "what": "An orchestrator that sits between a model and a dozen tools.",
+    "hours": "14",
+    "status": "built",
+    "tech": "55 files"
+  },
+  {
+    "track": "architecture-leadership",
+    "file": "13-project-decision-record.md",
+    "lesson": "/prep/architecture-leadership/project-decision-record",
+    "repo": "architecture-leadership-decision-record",
+    "what": "A decision record and its communication for one genuine choice, drawn from your own work or a realistic scenario you set up: for example, whether to adopt a mes",
+    "hours": "4",
+    "status": "built",
+    "tech": "34 files"
+  },
+  {
+    "track": "architecture-leadership",
+    "file": "14-project-design-review.md",
+    "lesson": "/prep/architecture-leadership/project-design-review",
+    "repo": "architecture-leadership-design-review",
+    "what": "A full design review of a system proposal: you write (or take) a realistic design document for a small system, run a review of it against quantified non-functio",
+    "hours": "8",
+    "status": "built",
+    "tech": "35 files"
+  },
+  {
+    "track": "architecture-leadership",
+    "file": "15-project-lead-a-migration.md",
+    "lesson": "/prep/architecture-leadership/project-lead-a-migration",
+    "repo": "architecture-leadership-lead-a-migration",
+    "what": "A migration plan and its governance for a realistic change: moving a monolith's one busy module to a service, replacing a datastore, or moving from one cloud to",
+    "hours": "12",
+    "status": "built",
+    "tech": "35 files"
+  },
+  {
+    "track": "aws",
+    "file": "16-project-private-static-site.md",
+    "lesson": "/prep/aws/project-private-static-site",
+    "repo": "aws-private-static-site",
+    "what": "A small static site (a few HTML pages and images of your own) stored in an S3 bucket that is never public, served to the world through CloudFront with origin ac",
+    "hours": "5",
+    "status": "built",
+    "tech": "30 files"
+  },
+  {
+    "track": "aws",
+    "file": "17-project-vpc-break-and-fix.md",
+    "lesson": "/prep/aws/project-vpc-break-and-fix",
+    "repo": "aws-vpc-break-and-fix",
+    "what": "A small web app on EC2 instances in private subnets of two Availability Zones, behind an Application Load Balancer in public subnets, reaching S3 through a gate",
+    "hours": "10",
+    "status": "built",
+    "tech": "35 files"
+  },
+  {
+    "track": "aws",
+    "file": "18-project-guardrails-drill.md",
+    "lesson": "/prep/aws/project-guardrails-drill",
+    "repo": "aws-guardrails-drill",
+    "what": "A small AWS organization of your own: a management account, a security account that receives logs, and a sandbox workload account, with people signing in throug",
+    "hours": "12",
+    "status": "built",
+    "tech": "30 files"
+  },
+  {
+    "track": "azure",
+    "file": "11-project-secretless-app.md",
+    "lesson": "/prep/azure/project-secretless-app",
+    "repo": "azure-secretless-app",
+    "what": "A small web app on Azure Container Apps or App Service that reads an API key from Key Vault and writes uploaded files to a Storage account, using a user-assigne",
+    "hours": "5",
+    "status": "built",
+    "tech": "34 files"
+  },
+  {
+    "track": "azure",
+    "file": "12-project-service-bus-worker.md",
+    "lesson": "/prep/azure/project-service-bus-worker",
+    "repo": "azure-service-bus-worker",
+    "what": "An order-processing worker that reads commands from an Azure Service Bus queue and writes results to a small database.",
+    "hours": "9",
+    "status": "built",
+    "tech": "31 files"
+  },
+  {
+    "track": "azure",
+    "file": "13-project-private-platform-slice.md",
+    "lesson": "/prep/azure/project-private-platform-slice",
+    "repo": "azure-private-platform-slice",
+    "what": "A small platform slice: a management group with policies, a hub virtual network with shared services, and a spoke network where an app reaches Key Vault and Sto",
+    "hours": "14",
+    "status": "built",
+    "tech": "33 files"
+  },
+  {
+    "track": "batch-integration",
+    "file": "13-project-restartable-import.md",
+    "lesson": "/prep/batch-integration/project-restartable-import",
+    "repo": "batch-integration-restartable-import",
+    "what": "A Spring Batch job that imports a product catalog from a CSV file of 200,000 rows into a database table: read, validate and transform, then write in chunks.",
+    "hours": "6",
+    "tech": "27 files",
+    "status": "built"
+  },
+  {
+    "track": "batch-integration",
+    "file": "14-project-scale-a-batch-job.md",
+    "lesson": "/prep/batch-integration/project-scale-a-batch-job",
+    "repo": "batch-integration-scale-a-batch-job",
+    "what": "A nightly job that recalculates loyalty points for five million customer accounts from their month of transactions, and must finish within a two-hour window.",
+    "hours": "10",
+    "tech": "28 files",
+    "status": "built"
+  },
+  {
+    "track": "batch-integration",
+    "file": "15-project-replace-a-file-drop.md",
+    "lesson": "/prep/batch-integration/project-replace-a-file-drop",
+    "repo": "batch-integration-replace-a-file-drop",
+    "what": "A pretend legacy partner drops a file of orders on an SFTP server every night, and a batch job loads it the next morning, so orders arrive up to a day late.",
+    "hours": "14",
+    "tech": "32 files",
+    "status": "built"
+  },
+  {
+    "track": "cicd",
+    "file": "12-project-green-main.md",
+    "lesson": "/prep/cicd/project-green-main",
+    "repo": "cicd-green-main",
+    "what": "A CI pipeline for a small service of your own, on any CI system: it builds once, runs lint, unit tests and a short integration test in parallel, publishes test ",
+    "hours": "5",
+    "status": "built",
+    "tech": "29 files"
+  },
+  {
+    "track": "cicd",
+    "file": "13-project-canary-with-rollback.md",
+    "lesson": "/prep/cicd/project-canary-with-rollback",
+    "repo": "cicd-canary-with-rollback",
+    "what": "A delivery path for a small service on a local Kubernetes cluster: CI builds an image once and records its digest; a GitOps controller deploys it to a staging n",
+    "hours": "12",
+    "status": "built",
+    "note": "all six steps run on the kind cluster on 2026-11-02: make up && make run && make test-e2e passed (6 passed in 257.74s), cluster deleted afterwards",
+    "tech": "32 files"
+  },
+  {
+    "track": "cicd",
+    "file": "14-project-golden-path-and-dora.md",
+    "lesson": "/prep/cicd/project-golden-path-and-dora",
+    "repo": "cicd-golden-path-and-dora",
+    "what": "A small internal platform for a pretend organization of three teams: a template that creates a new service repository with a working pipeline, signed artifacts,",
+    "hours": "14",
+    "status": "built",
+    "tech": "31 files"
+  },
+  {
+    "track": "cloud-security",
+    "file": "13-project-threat-model-a-workload.md",
+    "lesson": "/prep/cloud-security/project-threat-model-a-workload",
+    "repo": "cloud-security-threat-model-a-workload",
+    "what": "A small cloud workload in a sandbox account you own, a service that reads and writes files in object storage and a secret in a secrets manager, threat-modeled o",
+    "hours": "7",
+    "status": "built",
+    "tech": "37 files"
+  },
+  {
+    "track": "cloud-security",
+    "file": "14-project-isolate-two-tenants.md",
+    "lesson": "/prep/cloud-security/project-isolate-two-tenants",
+    "repo": "cloud-security-isolate-two-tenants",
+    "what": "A small multi-tenant setup in a sandbox account: two tenants, each with a workload and its own data in object storage and its own encryption key, sharing the sa",
+    "hours": "11",
+    "status": "built",
+    "tech": "38 files"
+  },
+  {
+    "track": "cloud-security",
+    "file": "15-project-detect-and-respond.md",
+    "lesson": "/prep/cloud-security/project-detect-and-respond",
+    "repo": "cloud-security-detect-and-respond",
+    "what": "The detection-and-response layer for a sandbox cloud account: every action logged to a tamper-resistant store, a set of detections for the actions that matter (",
+    "hours": "14",
+    "status": "built",
+    "tech": "38 files"
+  },
+  {
+    "track": "compliance",
+    "file": "12-project-controls-and-evidence.md",
+    "lesson": "/prep/compliance/project-controls-and-evidence",
+    "repo": "compliance-controls-and-evidence",
+    "what": "A small service of your own and the evidence that a handful of common controls are actually in place and working.",
+    "hours": "6",
+    "status": "built",
+    "tech": "52 files",
+    "pending": "tech/ notes: container commands not run (pending capacity); see the repository README, Verification status of the tech/ notes"
+  },
+  {
+    "track": "compliance",
+    "file": "13-project-privacy-by-design.md",
+    "lesson": "/prep/compliance/project-privacy-by-design",
+    "repo": "compliance-privacy-by-design",
+    "what": "A small app that holds personal data in several places (the primary database, a search index, a cache, logs, and backups) and the machinery to honor the rights ",
+    "hours": "10",
+    "status": "built",
+    "tech": "39 files"
+  },
+  {
+    "track": "compliance",
+    "file": "14-project-shrink-pci-scope.md",
+    "lesson": "/prep/compliance/project-shrink-pci-scope",
+    "repo": "compliance-shrink-pci-scope",
+    "what": "A small shop checkout, first built the wrong way (card details posted to your own server), then redesigned so card data never touches your systems at all, using",
+    "hours": "12",
+    "status": "built",
+    "tech": "56 files",
+    "pending": "tech/ notes: container commands not run (pending capacity); see the repository README, Verification status of the tech/ notes"
+  },
+  {
+    "track": "data-platform",
+    "file": "09-project-star-schema.md",
+    "lesson": "/prep/data-platform/project-star-schema",
+    "repo": "data-platform-star-schema",
+    "what": "A small analytics pipeline for a pretend online bookshop: an operational PostgreSQL database with customers, books, orders and order lines, a nightly extract in",
+    "hours": "6",
+    "tech": "23 files",
+    "status": "built"
+  },
+  {
+    "track": "data-platform",
+    "file": "10-project-cdc-to-lakehouse.md",
+    "lesson": "/prep/data-platform/project-cdc-to-lakehouse",
+    "repo": "data-platform-cdc-to-lakehouse",
+    "what": "A change data capture pipeline: changes to an `orders` table in PostgreSQL are read from the database's log, published to a broker, and applied by a processing ",
+    "hours": "12",
+    "tech": "26 files",
+    "status": "built"
+  },
+  {
+    "track": "data-platform",
+    "file": "11-project-quality-and-governance.md",
+    "lesson": "/prep/data-platform/project-quality-and-governance",
+    "repo": "data-platform-quality-and-governance",
+    "what": "The governance layer for a small pipeline that feeds a revenue dashboard: a data contract between the team that owns the source and the team that owns the dashb",
+    "hours": "12",
+    "tech": "22 files",
+    "status": "built"
+  },
+  {
+    "track": "databases",
+    "file": "12-project-model-two-ways.md",
+    "lesson": "/prep/databases/project-model-two-ways",
+    "repo": "databases-model-two-ways",
+    "what": "The data layer for a small equipment-rental shop: customers, items, and rentals of an item for a date range.",
+    "hours": "6",
+    "status": "built",
+    "tech": "28 files"
+  },
+  {
+    "track": "databases",
+    "file": "13-project-isolation-anomalies.md",
+    "lesson": "/prep/databases/project-isolation-anomalies",
+    "repo": "databases-isolation-anomalies",
+    "what": "A small lab of transaction anomalies in PostgreSQL, each a pair of scripts you run side by side in two sessions with pauses at the right moments.",
+    "hours": "9",
+    "status": "built",
+    "tech": "27 files"
+  },
+  {
+    "track": "databases",
+    "file": "14-project-write-heavy-feed.md",
+    "lesson": "/prep/databases/project-write-heavy-feed",
+    "repo": "databases-write-heavy-feed",
+    "what": "The storage for an activity feed: devices send events (several thousand a second at peak), and the app shows each user the latest 50 events for each of their de",
+    "hours": "14",
+    "status": "built",
+    "tech": "33 files"
+  },
+  {
+    "track": "docker",
+    "file": "13-project-containerize-an-app.md",
+    "lesson": "/prep/docker/project-containerize-an-app",
+    "repo": "docker-containerize-an-app",
+    "what": "A small web app of your own (a notes or to-do service in any language) running in a container next to PostgreSQL, started with one `docker compose up`.",
+    "hours": "4",
+    "status": "built",
+    "tech": "26 files"
+  },
+  {
+    "track": "docker",
+    "file": "14-project-shrink-and-harden.md",
+    "lesson": "/prep/docker/project-shrink-and-harden",
+    "repo": "docker-shrink-and-harden",
+    "what": "An image pipeline for a compiled service (Java, Go or similar) that starts as a one-stage build on a full SDK image of around a gigabyte, with a private package",
+    "hours": "8",
+    "status": "built",
+    "tech": "27 files"
+  },
+  {
+    "track": "docker",
+    "file": "15-project-container-failures.md",
+    "lesson": "/prep/docker/project-container-failures",
+    "repo": "docker-container-failures",
+    "what": "A failure lab on one Linux host or VM: a small service and a worker that you can switch into six bad behaviors, and a runbook built from what you saw.",
+    "hours": "10",
+    "status": "built",
+    "tech": "26 files"
+  },
+  {
+    "track": "gcp",
+    "file": "15-project-cloud-run-pubsub.md",
+    "lesson": "/prep/gcp/project-cloud-run-pubsub",
+    "repo": "gcp-cloud-run-pubsub",
+    "what": "Two small containers on Cloud Run in a project of your own: an API that accepts an upload request and publishes a message to a Pub/Sub topic, and a worker that ",
+    "hours": "6",
+    "status": "built",
+    "tech": "39 files"
+  },
+  {
+    "track": "gcp",
+    "file": "16-project-gke-identity-and-keys.md",
+    "lesson": "/prep/gcp/project-gke-identity-and-keys",
+    "repo": "gcp-gke-identity-and-keys",
+    "what": "A GKE cluster running a small service that reads and writes files in a Cloud Storage bucket, with no service account key anywhere: pods get short-lived credenti",
+    "hours": "10",
+    "status": "built",
+    "tech": "38 files"
+  },
+  {
+    "track": "gcp",
+    "file": "17-project-landing-zone-slice.md",
+    "lesson": "/prep/gcp/project-landing-zone-slice",
+    "repo": "gcp-landing-zone-slice",
+    "what": "A slice of a landing zone in an organization you own (a free identity domain is enough): folders for production and non-production, organization policies set at",
+    "hours": "14",
+    "status": "built",
+    "tech": "36 files"
+  },
+  {
+    "track": "github-actions",
+    "file": "13-project-fast-ci-workflow.md",
+    "lesson": "/prep/github-actions/project-fast-ci-workflow",
+    "repo": "github-actions-fast-ci-workflow",
+    "what": "A CI workflow for a small library of your own in a repository you own: it tests on three language versions and two operating systems, caches dependencies, uploa",
+    "hours": "4",
+    "status": "built",
+    "tech": "26 files"
+  },
+  {
+    "track": "github-actions",
+    "file": "14-project-reusable-workflows.md",
+    "lesson": "/prep/github-actions/project-reusable-workflows",
+    "repo": "github-actions-reusable-workflows",
+    "what": "A small \"platform\" repository with a reusable workflow for building and testing services and a composite action that sets up the toolchain, plus three consumer ",
+    "hours": "8",
+    "status": "built",
+    "tech": "24 files"
+  },
+  {
+    "track": "github-actions",
+    "file": "15-project-attack-and-harden.md",
+    "lesson": "/prep/github-actions/project-attack-and-harden",
+    "repo": "github-actions-attack-and-harden",
+    "what": "A deliberately vulnerable repository of your own, then the hardened version of it.",
+    "hours": "12",
+    "status": "built",
+    "tech": "30 files"
+  },
+  {
+    "track": "gitops",
+    "file": "13-project-reconcile-and-drift.md",
+    "lesson": "/prep/gitops/project-reconcile-and-drift",
+    "repo": "gitops-reconcile-and-drift",
+    "what": "A local cluster managed by a GitOps controller (Argo CD or Flux, your choice) that watches a small Git repository of your own: a namespace, a Deployment, a Serv",
+    "hours": "5",
+    "status": "built",
+    "verified": "offline tests and lint pass; live cluster or stack run pending capacity (Docker.raw at its 60 GiB cap on 2026-10-28); see the repository README, Verification status",
+    "tech": "26 files"
+  },
+  {
+    "track": "gitops",
+    "file": "14-project-environments-and-secrets.md",
+    "lesson": "/prep/gitops/project-environments-and-secrets",
+    "repo": "gitops-environments-and-secrets",
+    "what": "A GitOps repository for one service in three environments, dev, staging and production, as Kustomize overlays on a shared base, deployed to three namespaces (or",
+    "hours": "10",
+    "status": "built",
+    "verified": "live cluster run on 2026-11-02: make up, make run and make test-cluster (13 tests) pass; see the repository README, Verification status",
+    "tech": "29 files"
+  },
+  {
+    "track": "gitops",
+    "file": "15-project-fleet-and-bad-commit.md",
+    "lesson": "/prep/gitops/project-fleet-and-bad-commit",
+    "repo": "gitops-fleet-and-bad-commit",
+    "what": "Three local clusters, one per stage, managed from a single repository by a GitOps controller that generates one app per cluster from a template.",
+    "hours": "14",
+    "status": "built",
+    "verified": "live cluster run on 2026-11-02: make up passes and make test-cluster passes (16 tests); see the repository README, Verification status",
+    "tech": "27 files"
+  },
+  {
+    "track": "grpc",
+    "file": "12-project-inventory-contract.md",
+    "lesson": "/prep/grpc/project-inventory-contract",
+    "repo": "grpc-inventory-contract",
+    "what": "An inventory service in gRPC: `GetItem` (unary), `ListItems` (server streaming) and `WatchStock` (server streaming that pushes changes).",
+    "hours": "6",
+    "status": "built",
+    "tech": "26 files"
+  },
+  {
+    "track": "grpc",
+    "file": "13-project-uneven-load.md",
+    "lesson": "/prep/grpc/project-uneven-load",
+    "repo": "grpc-uneven-load",
+    "what": "Three replicas of a gRPC service on a local Kubernetes cluster, a client that sends a steady stream of calls, and a dashboard of requests per replica.",
+    "hours": "10",
+    "status": "built",
+    "tech": "30 files"
+  },
+  {
+    "track": "grpc",
+    "file": "14-project-deadlines-across-hops.md",
+    "lesson": "/prep/grpc/project-deadlines-across-hops",
+    "repo": "grpc-deadlines-across-hops",
+    "what": "Three gRPC services in a chain: a front service, a quote service and a stock service.",
+    "hours": "14",
+    "status": "built",
+    "tech": "28 files"
+  },
+  {
+    "track": "java",
+    "file": "22-project-spending-report.md",
+    "lesson": "/prep/java/project-spending-report",
+    "repo": "java-spending-report",
+    "what": "A command-line tool, `spend`, that reads a CSV export of card transactions and prints a monthly report: total spent per category per month, the five largest pur",
+    "hours": "6",
+    "status": "built",
+    "tech": "27 files"
+  },
+  {
+    "track": "java",
+    "file": "23-project-link-checker.md",
+    "lesson": "/prep/java/project-link-checker",
+    "repo": "java-link-checker",
+    "what": "A link checker: give it a start page on a site you run locally, and it follows every link on the same host, checks each one, and prints a report of broken links",
+    "hours": "10",
+    "status": "built",
+    "tech": "32 files"
+  },
+  {
+    "track": "java",
+    "file": "24-project-leak-hunt.md",
+    "lesson": "/prep/java/project-leak-hunt",
+    "repo": "java-leak-hunt",
+    "what": "A small HTTP service, then two production problems inside it, then the evidence that finds them.",
+    "hours": "14",
+    "status": "built",
+    "tech": "35 files"
+  },
+  {
+    "track": "jenkins",
+    "file": "13-project-controller-as-code.md",
+    "lesson": "/prep/jenkins/project-controller-as-code",
+    "repo": "jenkins-controller-as-code",
+    "what": "A Jenkins controller in a container whose whole configuration, from plugins and security to agents and credentials references, comes from files in a Git reposit",
+    "hours": "5",
+    "status": "built",
+    "verified": "offline tests and lint pass; live cluster or stack run pending capacity (Docker.raw at its 60 GiB cap on 2026-10-28); see the repository README, Verification status",
+    "tech": "32 files"
+  },
+  {
+    "track": "jenkins",
+    "file": "14-project-shared-library.md",
+    "lesson": "/prep/jenkins/project-shared-library",
+    "repo": "jenkins-shared-library",
+    "what": "A shared library that gives three small projects the same pipeline in a few lines each: a `standardBuild` step that builds, tests, reports and publishes, with o",
+    "hours": "10",
+    "status": "built",
+    "verified": "offline tests and lint pass; live cluster or stack run pending capacity (Docker.raw at its 60 GiB cap on 2026-10-28); see the repository README, Verification status",
+    "tech": "34 files"
+  },
+  {
+    "track": "jenkins",
+    "file": "15-project-scale-and-break.md",
+    "lesson": "/prep/jenkins/project-scale-and-break",
+    "repo": "jenkins-scale-and-break",
+    "what": "A Jenkins controller on a local Kubernetes cluster that launches a fresh pod as an agent for every build and removes it afterward.",
+    "hours": "14",
+    "status": "built",
+    "verified": "offline tests and lint pass; live cluster or stack run pending capacity (Docker.raw at its 60 GiB cap on 2026-10-28); see the repository README, Verification status",
+    "tech": "31 files"
+  },
+  {
+    "track": "kafka",
+    "file": "14-project-order-events.md",
+    "lesson": "/prep/kafka/project-order-events",
+    "repo": "kafka-order-events",
+    "what": "An order-events stream on a single-node Kafka 4 cluster in a container: a producer that publishes `OrderPlaced`, `OrderPaid` and `OrderShipped` events, and a co",
+    "hours": "6",
+    "status": "built",
+    "tech": "30 files files"
+  },
+  {
+    "track": "kafka",
+    "file": "15-project-idempotent-consumer.md",
+    "lesson": "/prep/kafka/project-idempotent-consumer",
+    "repo": "kafka-idempotent-consumer",
+    "what": "A consumer that reads payment events and keeps an account-balance table in PostgreSQL up to date.",
+    "hours": "10",
+    "status": "built",
+    "tech": "33 files files"
+  },
+  {
+    "track": "kafka",
+    "file": "16-project-durable-pipeline.md",
+    "lesson": "/prep/kafka/project-durable-pipeline",
+    "repo": "kafka-durable-pipeline",
+    "what": "A three-broker Kafka cluster in containers and a small pipeline on it: a producer writes transfer events, a processor reads them and writes per-account daily to",
+    "hours": "16",
+    "status": "built",
+    "tech": "34 files files"
+  },
+  {
+    "track": "kubernetes",
+    "file": "12-project-break-it-five-ways.md",
+    "lesson": "/prep/kubernetes/project-break-it-five-ways",
+    "repo": "kubernetes-break-it-five-ways",
+    "what": "A two-part app on a local cluster (kind, k3d or minikube): a small web service of your own and a Redis instance it uses as a counter.",
+    "hours": "6",
+    "status": "built",
+    "tech": "28 files"
+  },
+  {
+    "track": "kubernetes",
+    "file": "13-project-zero-downtime.md",
+    "lesson": "/prep/kubernetes/project-zero-downtime",
+    "repo": "kubernetes-zero-downtime",
+    "what": "A small HTTP service on a local cluster with three nodes, under constant load from a load generator that counts every failed request.",
+    "hours": "10",
+    "status": "built",
+    "tech": "31 files"
+  },
+  {
+    "track": "kubernetes",
+    "file": "14-project-harden-a-namespace.md",
+    "lesson": "/prep/kubernetes/project-harden-a-namespace",
+    "repo": "kubernetes-harden-a-namespace",
+    "what": "Two team namespaces on a local cluster whose network plugin enforces NetworkPolicy, each running a small web service and a database.",
+    "hours": "12",
+    "status": "built",
+    "tech": "34 files"
+  },
+  {
+    "track": "microservices",
+    "file": "32-project-strangle-a-capability.md",
+    "lesson": "/prep/microservices/project-strangle-a-capability",
+    "repo": "microservices-strangle-a-capability",
+    "what": "A small monolith with three capabilities in one process and one database: catalog, orders and notifications.",
+    "hours": "8",
+    "status": "built",
+    "tech": "24 files"
+  },
+  {
+    "track": "microservices",
+    "file": "33-project-saga-with-outbox.md",
+    "lesson": "/prep/microservices/project-saga-with-outbox",
+    "repo": "microservices-saga-with-outbox",
+    "what": "A checkout that spans three services: orders, payments and inventory, each with its own database.",
+    "hours": "14",
+    "status": "built",
+    "tech": "28 files"
+  },
+  {
+    "track": "microservices",
+    "file": "34-project-retry-storm.md",
+    "lesson": "/prep/microservices/project-retry-storm",
+    "repo": "microservices-retry-storm",
+    "what": "A chain of four small services, gateway to search to pricing to a stock store, each with a naive client that retries three times on any error.",
+    "hours": "16",
+    "status": "built",
+    "tech": "27 files"
+  },
+  {
+    "track": "observability",
+    "file": "12-project-three-signals.md",
+    "lesson": "/prep/observability/project-three-signals",
+    "repo": "observability-three-signals",
+    "what": "Two small services of your own, a front service that calls a back service that queries a database, instrumented with OpenTelemetry and sending everything throug",
+    "hours": "6",
+    "status": "built",
+    "tech": "34 files"
+  },
+  {
+    "track": "observability",
+    "file": "13-project-cardinality-blowup.md",
+    "lesson": "/prep/observability/project-cardinality-blowup",
+    "repo": "observability-cardinality-blowup",
+    "what": "A small app with a metrics backend that you overload on purpose.",
+    "hours": "9",
+    "status": "built",
+    "tech": "32 files"
+  },
+  {
+    "track": "observability",
+    "file": "14-project-slo-alerts-and-cost.md",
+    "lesson": "/prep/observability/project-slo-alerts-and-cost",
+    "repo": "observability-slo-alerts-and-cost",
+    "what": "An observability setup for a small service that a team could actually live with on call.",
+    "hours": "12",
+    "status": "built",
+    "tech": "38 files"
+  },
+  {
+    "track": "ood",
+    "file": "106-project-room-booking.md",
+    "lesson": "/prep/ood/project-room-booking",
+    "repo": "ood-room-booking",
+    "what": "The booking core of a meeting-room system for one office: rooms with a capacity, bookings for a time range, and the rule that two bookings of one room never ove",
+    "hours": "5",
+    "status": "built",
+    "tech": "32 files"
+  },
+  {
+    "track": "ood",
+    "file": "107-project-pricing-rules.md",
+    "lesson": "/prep/ood/project-pricing-rules",
+    "repo": "ood-pricing-rules",
+    "what": "The pricing step of a shopping cart: a cart of lines goes in, a priced cart comes out, with every discount listed and explained.",
+    "hours": "9",
+    "status": "built",
+    "tech": "32 files"
+  },
+  {
+    "track": "ood",
+    "file": "108-project-seat-holds.md",
+    "lesson": "/prep/ood/project-seat-holds",
+    "repo": "ood-seat-holds",
+    "what": "The seat-hold core of an event ticketing system.",
+    "hours": "14",
+    "status": "built",
+    "tech": "39 files"
+  },
+  {
+    "track": "payments",
+    "file": "12-project-idempotent-payments.md",
+    "lesson": "/prep/payments/project-idempotent-payments",
+    "repo": "payments-idempotent-payments",
+    "what": "A small payments service against a payment provider's test mode: it authorizes and captures a payment, records every money movement in a double-entry ledger, an",
+    "hours": "7",
+    "status": "built",
+    "tech": "43 files"
+  },
+  {
+    "track": "payments",
+    "file": "13-project-reconciliation.md",
+    "lesson": "/prep/payments/project-reconciliation",
+    "repo": "payments-reconciliation",
+    "what": "A reconciliation system for a small payments service: every day it compares your own ledger with the settlement report a provider sends, finds the transactions ",
+    "hours": "10",
+    "status": "built",
+    "tech": "43 files"
+  },
+  {
+    "track": "payments",
+    "file": "14-project-secure-open-banking.md",
+    "lesson": "/prep/payments/project-secure-open-banking",
+    "repo": "payments-secure-open-banking",
+    "what": "An open-banking style payment: a made-up merchant asks a made-up bank to move money from a customer's account, with the customer's explicit consent and strong a",
+    "hours": "14",
+    "status": "built",
+    "tech": "47 files"
+  },
+  {
+    "track": "python",
+    "file": "11-project-log-summarizer.md",
+    "lesson": "/prep/python/project-log-summarizer",
+    "repo": "python-log-summarizer",
+    "what": "A command-line tool, `logsum`, that reads a web server access log and prints a summary: requests per status code, the ten slowest paths by 95th-percentile laten",
+    "hours": "5",
+    "status": "built",
+    "tech": "24 files"
+  },
+  {
+    "track": "python",
+    "file": "12-project-blocked-event-loop.md",
+    "lesson": "/prep/python/project-blocked-event-loop",
+    "repo": "python-blocked-event-loop",
+    "what": "A small inventory API with FastAPI: `GET /items/{id}`, `POST /items` and `GET /report`, backed by SQLite, with typed request and response models.",
+    "hours": "9",
+    "status": "built",
+    "tech": "30 files"
+  },
+  {
+    "track": "python",
+    "file": "13-project-cpu-bound-job.md",
+    "lesson": "/prep/python/project-cpu-bound-job",
+    "repo": "python-cpu-bound-job",
+    "what": "A batch tool that scores text documents for near-duplicates: for each of 20,000 short documents it builds a set of word shingles (runs of three words) and finds",
+    "hours": "12",
+    "status": "built",
+    "tech": "27 files"
+  },
+  {
+    "track": "rest",
+    "file": "15-project-design-and-lint.md",
+    "lesson": "/prep/rest/project-design-and-lint",
+    "repo": "rest-design-and-lint",
+    "what": "The API for a small event-booking service: events, their sessions and attendees' registrations.",
+    "hours": "6",
+    "status": "built",
+    "tech": "43 files"
+  },
+  {
+    "track": "rest",
+    "file": "16-project-safe-retries.md",
+    "lesson": "/prep/rest/project-safe-retries",
+    "repo": "rest-safe-retries",
+    "what": "A small orders API with two dangerous operations made safe.",
+    "hours": "9",
+    "status": "built",
+    "tech": "39 files"
+  },
+  {
+    "track": "rest",
+    "file": "17-project-version-and-retire.md",
+    "lesson": "/prep/rest/project-version-and-retire",
+    "repo": "rest-version-and-retire",
+    "what": "A customer API with a breaking change to make: version 1 returns `name` as one string, and version 2 must return `givenName` and `familyName`, with a new requir",
+    "hours": "12",
+    "status": "built",
+    "tech": "39 files"
+  },
+  {
+    "track": "security",
+    "file": "23-project-threat-model-and-harden.md",
+    "lesson": "/prep/security/project-threat-model-and-harden",
+    "repo": "security-threat-model-and-harden",
+    "what": "A small notes app of your own (users sign in, write notes, share some), threat-modeled on one page and then hardened against the vulnerabilities that top the OW",
+    "hours": "8",
+    "status": "built",
+    "tech": "33 files"
+  },
+  {
+    "track": "security",
+    "file": "24-project-oauth-login-done-right.md",
+    "lesson": "/prep/security/project-oauth-login-done-right",
+    "repo": "security-oauth-login-done-right",
+    "what": "Sign-in for a small app using an identity provider you run locally (a self-hosted OpenID Connect provider in a container is enough), with the authorization code",
+    "hours": "10",
+    "status": "built",
+    "tech": "35 files"
+  },
+  {
+    "track": "security",
+    "file": "25-project-secure-the-pipeline.md",
+    "lesson": "/prep/security/project-secure-the-pipeline",
+    "repo": "security-secure-the-pipeline",
+    "what": "The build and release path for a small service, hardened against the ways software is compromised before it ever runs: secrets that live in a manager rather tha",
+    "hours": "12",
+    "status": "built",
+    "tech": "41 files"
+  },
+  {
+    "track": "service-mesh",
+    "file": "13-project-strict-mtls.md",
+    "lesson": "/prep/service-mesh/project-strict-mtls",
+    "repo": "service-mesh-strict-mtls",
+    "what": "Three small services on a local cluster with Istio installed: a web front end, an API and a back end.",
+    "hours": "6",
+    "status": "partial",
+    "tech": "30 files"
+  },
+  {
+    "track": "service-mesh",
+    "file": "14-project-traffic-and-faults.md",
+    "lesson": "/prep/service-mesh/project-traffic-and-faults",
+    "repo": "service-mesh-traffic-and-faults",
+    "what": "Ingress and service-to-service traffic for a small app in a mesh, configured with the Gateway API: a gateway with HTTPS, routes to two versions of a service wit",
+    "hours": "10",
+    "status": "partial",
+    "tech": "32 files"
+  },
+  {
+    "track": "service-mesh",
+    "file": "15-project-ambient-and-authz.md",
+    "lesson": "/prep/service-mesh/project-ambient-and-authz",
+    "repo": "service-mesh-ambient-and-authz",
+    "what": "A small app of five services running in Istio with sidecars, measured, then moved to ambient mode one namespace at a time and measured again.",
+    "hours": "14",
+    "status": "partial",
+    "tech": "35 files"
+  },
+  {
+    "track": "spring",
+    "file": "15-project-reading-list-api.md",
+    "lesson": "/prep/spring/project-reading-list-api",
+    "repo": "spring-reading-list-api",
+    "what": "A reading-list API: add a book, list books with paging, mark one as read, and delete one.",
+    "hours": "6",
+    "status": "built",
+    "built": "2026-10-27",
+    "pending": "Docker-based checks (make up, run, audit, fresh clone); see the repository README, Verification status",
+    "tech": "36 files"
+  },
+  {
+    "track": "spring",
+    "file": "16-project-order-service-traps.md",
+    "lesson": "/prep/spring/project-order-service-traps",
+    "repo": "spring-order-service-traps",
+    "what": "An order service on Spring Data JPA and PostgreSQL (run in Testcontainers for tests): customers, orders and order lines, an endpoint that lists a customer's ord",
+    "hours": "10",
+    "status": "built",
+    "built": "2026-10-27",
+    "pending": "Docker-based checks (make up, run, audit, fresh clone); see the repository README, Verification status",
+    "tech": "42 files"
+  },
+  {
+    "track": "spring",
+    "file": "17-project-resilient-client.md",
+    "lesson": "/prep/spring/project-resilient-client",
+    "repo": "spring-resilient-client",
+    "what": "Two Spring Boot applications.",
+    "hours": "14",
+    "status": "built",
+    "built": "2026-10-27",
+    "pending": "Docker-based checks (make up, run, audit, fresh clone); see the repository README, Verification status",
+    "tech": "43 files"
+  },
+  {
+    "track": "sql-optimization",
+    "file": "23-project-three-slow-queries.md",
+    "lesson": "/prep/sql-optimization/project-three-slow-queries",
+    "repo": "sql-optimization-three-slow-queries",
+    "what": "An `orders` table with one million rows in PostgreSQL or MySQL, seeded by a script with realistic skew (a few customers with many orders, most with a few), and ",
+    "hours": "5",
+    "status": "built",
+    "tech": "34 files"
+  },
+  {
+    "track": "sql-optimization",
+    "file": "24-project-busy-listing.md",
+    "lesson": "/prep/sql-optimization/project-busy-listing",
+    "repo": "sql-optimization-busy-listing",
+    "what": "A small web app with an ORM that lists orders with their customers, 20 to a page, and a load script that clicks through pages like real users, deep pages includ",
+    "hours": "9",
+    "status": "built",
+    "tech": "41 files"
+  },
+  {
+    "track": "sql-optimization",
+    "file": "25-project-locks-and-migration.md",
+    "lesson": "/prep/sql-optimization/project-locks-and-migration",
+    "repo": "sql-optimization-locks-and-migration",
+    "what": "A 50-million-row `events` table under constant read and write load from a script, and three changes you must make to it while the load keeps running: add a new ",
+    "hours": "14",
+    "status": "built",
+    "tech": "38 files"
+  },
+  {
+    "track": "sre",
+    "file": "14-project-slos-and-budget.md",
+    "lesson": "/prep/sre/project-slos-and-budget",
+    "repo": "sre-slos-and-budget",
+    "what": "SLOs for a small web service of your own, a URL shortener or a notes app, and the tooling to measure them: a script or a dashboard that reads the service's requ",
+    "hours": "5",
+    "status": "built",
+    "tech": "33 files"
+  },
+  {
+    "track": "sre",
+    "file": "15-project-game-day.md",
+    "lesson": "/prep/sre/project-game-day",
+    "repo": "sre-game-day",
+    "what": "A game day for a small three-service system of your own, with one or two friends or colleagues if you can (alone, you play every role in turn).",
+    "hours": "10",
+    "status": "built",
+    "tech": "37 files"
+  },
+  {
+    "track": "sre",
+    "file": "16-project-capacity-and-readiness.md",
+    "lesson": "/prep/sre/project-capacity-and-readiness",
+    "repo": "sre-capacity-and-readiness",
+    "what": "A capacity plan and a readiness review for a small service that is about to \"launch\": a load test that finds the point where latency rises sharply, a model of h",
+    "hours": "12",
+    "status": "partial",
+    "tech": "39 files"
+  },
+  {
+    "track": "testing",
+    "file": "14-project-pyramid-for-one-feature.md",
+    "lesson": "/prep/testing/project-pyramid-for-one-feature",
+    "repo": "testing-pyramid-for-one-feature",
+    "what": "A full set of tests for one small feature of your own, a discount calculator for a shopping cart, at every level of the pyramid: many fast unit tests for the ru",
+    "hours": "6",
+    "status": "built",
+    "tech": "33 files"
+  },
+  {
+    "track": "testing",
+    "file": "15-project-contracts-and-flake.md",
+    "lesson": "/prep/testing/project-contracts-and-flake",
+    "repo": "testing-contracts-and-flake",
+    "what": "Two services of your own, a front service and a back service, with a consumer-driven contract between them, plus a small end-to-end suite that you make flaky on",
+    "hours": "10",
+    "status": "built",
+    "tech": "33 files"
+  },
+  {
+    "track": "testing",
+    "file": "16-project-prove-resilience.md",
+    "lesson": "/prep/testing/project-prove-resilience",
+    "repo": "testing-prove-resilience",
+    "what": "A testing suite for the non-functional behavior of a small two-service system: a performance test that fails when p99 latency or throughput misses a target, a s",
+    "hours": "14",
+    "status": "built",
+    "tech": "29 files"
+  }
+]
