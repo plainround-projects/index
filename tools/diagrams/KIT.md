@@ -39,7 +39,7 @@ So each file carries its own opaque paper, and the palette is one line of CSS va
 
 ## 4. The canvas, palette and type
 
-Start from `template-architecture.svg` or `template-flow.svg`. **Copy the `<style>` and `<defs>` blocks unchanged; the checker compares them byte for byte.** Any color or size you want is already a class. If you think you need a new one, you do not: change the layout.
+Start by copying the whole template file (`cp tools/diagrams/template-architecture.svg <repo>/docs/diagrams/architecture.svg`, and the same for the flow), then edit only the root's size, `<title>`, `<desc>` and everything after `</defs>`. **The `<style>` and `<defs>` blocks stay unchanged; the checker compares them byte for byte.** Any color or size you want is already a class. If you think you need a new one, you do not: change the layout.
 
 - **Canvas:** 1200 wide, as tall as it needs, set in `width`, `height` and `viewBox` together. Two rects draw the paper: `class="paper"` (height H-1) and `class="grid"` (height H-2). Margin 48 on the left and right.
 - **Head:** `<text class="title" x="48" y="68">` in the serif, then `<text class="caption" x="48" y="100">`, one mono line of at most 115 characters on what to look at. Content starts at y=128.
@@ -121,7 +121,7 @@ Copy these. `x`, `y`, `w` and `h` are yours.
 <text class="label t-accent" x="247" y="199" text-anchor="middle">no keys</text>
 ```
 
-A rect with class `svc`, `note`, `win` or `actor` must hold its text: the checker fails a line that spills out. Text in a cylinder has no such check, so keep it 16 px inside the sides and above the bottom curve: the body ends at y + 2 ry + body height.
+A rect with class `svc`, `note`, `win` or `actor` must hold its text: the checker fails a line that spills out. Text in a cylinder has no such check, so keep it 16 px inside the sides and above the bottom curve. Size a cylinder from its text: width at least the longest line plus 32, body height 26 per line plus 24. With `y` the top of the shape, the straight sides run from y + ry to y + ry + body, and the lowest point is y + 2 ry + body.
 
 ## 6. Edges
 
@@ -145,7 +145,7 @@ Layout habits that kept the pilots clean:
 - **No crossings.** Reorder the nodes first. If two sources each feed the same two targets, put one target between the sources (`ai-cited-answers`: `Embedder` sits between `HybridRetriever` and `ingest`, so both reach it and the store without crossing).
 - **Fan-out:** give each branch its own vertical. Two dashed paths that share a stretch show a tick where they part.
 - **One edge from a boundary** stands for all members, for example `heartbeat, commit` leaves the group's box, not each consumer.
-- **Arrow ends:** stop on the node's edge, or on the top of a cylinder.
+- **Arrow ends:** stop on the node's edge. On a cylinder, stop on its top (y) or on a straight side, never on the curved corners.
 - **Whitespace is fine.** Leave it, or use it for a failure note. Do not add parts to fill it.
 
 ## 7. The two drawings
@@ -160,16 +160,16 @@ Typical size: 1200 by 800 to 900.
 
 A swimlane sequence, not a second architecture. The geometry is fixed, so copy it.
 
-- **Lanes:** three to five headers at y=128, height 48, starting right of x=396. Lane centers about 150 apart, for example 460, 610, 770, 940, 1088. Same shape as in the architecture: `actor` or `svc`, class `lane` for the text. A long name takes two lines at y=148 and y=168. Only the parts the walk-through touches get a lane. Merge the rest (`POST /ask` stands for the reader and the HTTP layer).
+- **Lanes:** three to five headers at y=128, height 48, starting right of x=396. Lane centers about 150 apart, for example 460, 610, 770, 940, 1088. A header is 120 to 170 wide: the name's characters times 10.2, plus 28. Same shape as in the architecture: `actor` or `svc`, class `lane` for the text. A long name takes two lines at y=148 and y=168. Only the parts the walk-through touches get a lane. Merge the rest: `POST /ask` stands for the reader and the HTTP layer, and several tables of one database share one lane named after the database, with the table's name on the edge or in the row text.
 - **Lifelines:** one `<path class="hair">` with `M<x> 176V<end>` per lane. End each one below the last row that uses it.
 - **Rail:** `<path class="hair" d="M66 216V<last row>"/>`.
 - **Rows:** the first at y=216, one every 64. A row is a circle at x=66, a bold line at x=96 (y-4), a detail at x=96 (y+16), and its message at y on the right. Row text ends before x=420: at most 33 characters of `sub`. A row with a third line needs 16 more before the next row.
 - **Message:** an edge from lane to lane, label above it. Keep the label inside the gap between lifelines (about 16 characters in a gap of 150), or put a `mask` rect behind it when it must cross one: `<rect class="mask" x="782" y="330" width="366" height="26" rx="4"/>`. A step on one lane is a `slot` rect 12 wide and 36 tall on the lifeline, with its label to the right.
 - **Numbering:** `dot` and white number for a normal step, `dot-g` for the step that ends well, `dot-w` for a failure. A failure that branches off step 3 is a new row marked `3x`, placed right after step 3, with its bold line in `t-warn`. If a step of the walk-through is the failure itself, it keeps its number and turns `dot-w`. Two outcomes of one step are `3a` and `3b`.
 - **Failure branch:** `fail` edges and `t-warn` labels. When a failure shows up later than its cause, draw both rows and join them with one `fail` path (`kafka-order-events`: `3x` to `6x`).
-- **End:** the last row ends in a `win` box with the words the run prints, or the outcome, when the walk-through has one.
+- **End:** the last row ends in a `win` box with the words the run prints, or the outcome, when the walk-through has one. Put it on that row, in free lane space, joined by an `ok` edge where the row has a lane to join. Do not float it below the rows.
 
-Typical size: 1200 by 700 to 840. A walk-through of more than ten steps: merge neighbors that touch the same lanes, and say so in your report.
+Typical size: 1200 by 700 to 840; a row is 64, so ten rows make about 940, which is fine. More than ten rows: merge neighbors that touch the same lanes, and say so in your report.
 
 ## 8. The Markdown
 
